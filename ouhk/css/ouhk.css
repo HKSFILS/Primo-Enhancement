@@ -1,0 +1,479 @@
+/* this is en_US css */
+
+/* header */
+#exlidHeaderContainer {height:auto; width:100%; background-color:#FFFFFF; 
+                       border:solid; border-width:0px ; border-color:pink;}
+
+#exlidHeaderTile { width:100%; float:left; overflow:hidden;
+                   padding-left:0em; padding-right:0em; padding-top:0em; padding-bottom:0em;
+                   border:solid; border-width:0px ; border-color:black;}
+
+.EXLSearchWrapper{clear:both;}
+#exlidUserAreaTile {z-index:20; margin-top:-4.0em;}
+#exlidMainMenuTile {clear:none; z-index:20;margin-top:0px;}
+
+
+/* ----------Search Box--------------- */
+/*
+#exlidSearchTile { height:100px; }
+*/
+#exlidSearchTile p { color:#4a4d51; font-weight:normal;  }
+
+
+/* ----------Search Ribbon Styles--------------- */
+#exlidSearchRibbon{width:55em }
+
+/* ----------Advanced Search Ribbon Styles---------------  change color of the submit button */
+/*
+#exlidAdvancedSearchRibbon input.submit  { border:1px solid #ffffff;  padding:0em; display:block; background-color:#0075b0; background-image:url(../images/bg_strip_btn_orange.png); background-repeat:repeat-x;margin:0em; width:8.5em;  color:#FFFFFF; font-weight: normal;height:24px; cursor: pointer;}
+*/
+#exlidAdvancedSearchRibbon input.submit  { border:1px solid #ffffff;  padding:0em; display:block; background-color:#0075b0; background-image:none; background-repeat:repeat-x;margin:0em; width:8.5em;  color:#FFFFFF; font-weight: normal;height:24px; cursor: pointer;}
+
+#exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormFieldsGroup1{width:36em;}
+#exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormFieldsGroup2{width:38em;}
+#exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormFieldsGroup2 select {width:17em; height:1.7em;}
+
+
+/* ----------Search Ribbon Styles---------------  change color of the submit button */
+/*
+#exlidSearchRibbon  input.submit { background-color:#0075b0; background-image:url(../images/bg_strip_btn_orange.png); background-repeat:repeat-x;margin:0em; width:100%; color:#FFFFFF; font-weight: normal;height:26px; cursor: pointer; padding-bottom:0.3em;padding-right:0.6em;padding-left:0.6em;}
+*/
+#exlidSearchRibbon  input.submit { background-color:#0075b0; background-image:none; background-repeat:repeat-x;margin:0em; width:100%; color:#FFFFFF; font-weight: normal;height:26px; cursor: pointer; padding-bottom:0.3em;padding-right:0.6em;padding-left:0.6em;}
+
+
+/* ----------Sub Nav Bar---------------*/
+#exlidUserAreaTile { float:right; 
+                     border:solid; border-width:0px ; border-color:red;}
+
+
+/* show-hide Main Menu Item */
+li#exlidMainMenuItem1 {display:none} /* Library search */
+li#exlidMainMenuItem2 {display:none}  /* "Find Databases" and "tags" */
+
+li#exlidMainMenuItem3 {display:none} /* NewLink */
+li#exlidMainMenuItem4 {display:none}  /* "NewLink_2 */
+li#exlidMainMenuItem5 {display:none}  /* "NewLink_3 */
+li#exlidMainMenuItem6 {display:none}  /* "NewLink_4 */
+li#exlidMainMenuItem7 {display:none}  /* "NewLink_4 */
+
+li#exlidMainMenuItem8 {display:none}  /* "A-Z" */
+li#exlidMainMenuItem9 {display:none}  /* "Help" */
+
+/* adjust the width of the custom menu bar , for debug, use this to show border : border:solid; border-width:0px ; border-color:green; */
+#exlidMainMenuTile {width:40em; margin-top:-1.5em; border:solid; border-width:0px ; border-color:red;}
+#exlidMainMenuTile div.EXLMainMenuContainer { display:none; }
+
+#exlidMainMenuTile div.EXLCustomMenuContainer
+    { float:right;font-size:80%; padding:0em;  margin:0em; display:block; z-index:100; position:relative; left:0; 
+      width:36em; vertical-align: text-top; vertical-align:top; height:18px; margin-top:0em; margin-right:0.0em;
+      border:solid; border-width:0px ; border-color:cyan; background-color:white;} /* set width of the customer menu container */
+#exlidMainMenuTile div.EXLCustomMenuContainer a { color:#4a4d51}
+#exlidMainMenuTile div.EXLCustomMenuContainer div.EXLCustomMenu {  float:right; width:99% ;}
+#exlidMainMenuTile div.EXLCustomMenuContainer div.EXLCustomMenu span 
+    { color: #555555; border-right:1px solid #CCCCCC; padding-left:0.4em; padding-right:0.5em}
+
+#exlidMainMenuTile div.EXLLanguagesContainer 
+    { float:right;font-size:80%; padding:0em;  margin:0em; display:block; z-index:100; position:relative; left:0; 
+      width:5em; vertical-align: text-top; vertical-align:top; height:18px; margin-top:0em; margin-right:0.6em;
+      border:solid; border-width:0px ; border-color:red;} /* set width of the language container */
+#exlidMainMenuTile div.EXLLanguagesContainer div.EXLLanguagesMenu 
+    {  float:right; width:99%; border:solid; border-width:0px ; border-color:blue;}
+#exlidMainMenuTile div.EXLLanguagesContainer 
+    {  display:none;}
+
+
+/* hide or display the RSS News Feed */
+#exlidSearchBanner {display:none}
+
+/* added by Sam, Chinese version only */
+.EXLMyAccountTabsRibbon div li {width:auto}
+
+/* featured.html */
+#exlidHomeContainer {width:100%; margin-left:0px; margin-right:0px; margin-top:0px; margin-bottom:0px; padding-left:0px; padding-right:0px; padding-top:0px; padding-bottom:0px; border:solid; border-width:0px ; border-color:red;}
+#exlidHomeContainer div.EXLHomeBlockContainer1{margin-bottom:1em;}
+
+#exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 {width:100%; margin-left:0px; margin-right:0px; margin-top:0px; margin-bottom:0px; padding-left:0px; padding-right:0px; padding-top:0px; padding-bottom:0px; border:solid; border-width:0px ; border-color:blue;}   /* width of featured */
+#exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.OULIBUrgentMsg {width:98%; margin-left:0%; margin-right:0%; color:red; overflow:hidden; 
+                                                                                        padding-left:1%; padding-right:1%; padding-top:5px; padding-bottom:5px; 
+                                                                                        border-bottom:1px solid #CCCCCC;} /* width of urgent message */
+
+/*    {width:84%; margin-left:8%; margin-right:8%;    */
+#exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.OULIBMainBody 
+    {width:98%; margin-left:1%; margin-right:1%; 
+     padding-left:0%; padding-right:0%; padding-top:0px; padding-bottom:0px; 
+     border:solid; border-width:0px ; border-color:green;} /* width of main body */
+
+/*    {float:left; width:67%; margin-left:0%; margin-right:0%;    */
+#exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.OULIBMainBody div.OULIBBodyLeft  
+    {float:left; width:62%; margin-left:0%; margin-right:0%; 
+     padding-left:0%; padding-right:0%; padding-top:0px; padding-bottom:0px; 
+     border:solid; border-width:0px; border-color:cyan;} /* width of left body */
+
+#exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.OULIBMainBody div.OULIBBodyLeft p { color:#4a4d51}
+
+/* amended by fman on 8-june-2015
+#exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.OULIBMainBody div.OULIBBodyLeft div.OULIBLeftBlock1 
+    {width:31%; margin-left:0%; margin-right:2%; float:left; 
+*/
+
+#exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.OULIBMainBody div.OULIBBodyLeft div.OULIBLeftBlock1 
+    {width:32%; margin-left:0%; margin-right:1%; float:left; 
+
+/*
+     background-color:lavender;
+*/
+     padding-left:0%; padding-right:0%; padding-top:0px; padding-bottom:0px; 
+     border:solid; border-width:0px; border-color:blue;} 
+
+#exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.OULIBMainBody div.OULIBBodyLeft div.OULIBLeftBlock1 ul {list-style:none}
+
+
+/*    {float:right; width:30%; margin-left:0%; margin-right:0%;    */
+#exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.OULIBMainBody div.OULIBBodyRight 
+    {float:right; width:35%; margin-left:0%; margin-right:0%; 
+     padding-left:0%; padding-right:0%; padding-top:0px; padding-bottom:0px; 
+     border:solid; border-width:0px ; border-color:pink;} /* width of right body */
+
+#exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.OULIBMainBody div.OULIBBodyRightFrame 
+    { width:340px; margin-left:auto; margin-right:auto; 
+     padding-left:0%; padding-right:0%; padding-top:0px; padding-bottom:0px; 
+     border:solid; border-width:0px ; border-color:cyan;} /* width of right body frame */
+
+#exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.OULIBMainBody div.OULIBBodyRight div.OULIBBodyRightFrame div.OULIBSlideContainer
+    {width:340px; overflow:hidden; border:solid; border-width:0px ; border-color:blue; }
+
+#exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.OULIBMainBody div.OULIBBodyRight div.OULIBBodyRightFrame div.OULIBNewsContainer 
+    {width:335px; margin-left:0%; margin-right:0%; padding-left:1%; padding-right:0%; padding-top:0.5em; padding-bottom:0em; 
+     border:solid; border-width:1px ; border-color:#CCCCCC; }
+
+/*
+#exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.OULIBMainBody div.OULIBBodyRight div.OULIBBodyRightFrame div.OULIBSlideContainer
+    {width:98%; overflow:hidden; border:solid; border-width:1px ; border-color:blue; }
+
+#exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.OULIBMainBody div.OULIBBodyRight div.OULIBBodyRightFrame div.OULIBNewsContainer 
+    {width:98%; margin-left:0%; margin-right:0%; padding-left:1%; padding-right:0%; padding-top:0.5em; padding-bottom:0em; 
+     border:solid; border-width:1px ; border-color:#CCCCCC; }
+*/
+
+#exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.OULIBMainBody div.OULIBBodyRight div.OULIBBodyRightFrame div.OULIBNewsContainer a  { color:#4a4d51}
+#exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.OULIBMainBody div.OULIBBodyRight div.OULIBBodyRightFrame div.OULIBNewsContainer ul { list-style:none}
+
+
+/* hide or display the right corner of the footer */
+.EXLFooterTile{min-height:30px; background-image:none;}
+.EXLFooterTile div.EXLFooterLinksContainer { float:left; width:100%;}
+
+/*
+.EXLFooterTile div.EXLFooterLinksContainer div.EXLFooterLeft  {float:left; width:30%; border:solid; border-width:1px ; border-color:blue}
+.EXLFooterTile div.EXLFooterLinksContainer div.EXLFooterRight {float:right; width:30%; border:solid; border-width:3px ; border-color:red}
+*/
+.EXLFooterTile div.EXLFooterLinksContainer div.EXLFooterLeft  {float:left; width:30%;}
+.EXLFooterTile div.EXLFooterLinksContainer div.EXLFooterRight {float:right; width:40%;}
+.EXLFooterTile div.EXLFooterLinksContainer div.EXLFooterRight a { color:#4a4d51}
+
+.EXLFooterTile div.EXLFooterUpdateContainer {width:0%;}
+.EXLFooterTile div.EXLFooterUpdateContainer div.EXLFooterLastUpdate {display:none}
+.EXLFooterTile div.EXLFooterUpdateContainer div.EXLFooterAutoUpdate {display:none}
+
+
+/* hide or display tabs in the result list */
+.EXLResult .EXLReviewsTab { display:none;}         /* Reviews tab  */
+
+/* hide or display the RSS News Feed */
+#exlidSearchBanner {display:none}
+
+/* added by exlibris */
+.EXLMyAccountTabsRibbon div li {width:auto}
+
+.EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy {width:16em}
+.EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy ul {margin-left:2em}
+ *+html #exlidSearchRibbon div.EXLDynamicSelectBodyRadio div {padding-left:0.5em}
+ *+html #exlidSearchRibbon div.EXLDynamicSelectBodyRadio div label {padding-left:0}
+
+
+/*
+.EXLFacetContainer div.EXLFacetActions {display:none}
+*/
+
+#exlidMyAccountMenu1-6 {display:none}
+ *+html .EXLSearchFieldRibbonFormCollectionsList {left:27em; }/*for ie7*/
+
+.EXLResultMediaTYPEteach_materials .multipleCoverImageContainer {background: url(../../../images/icon_teach_materials.png) no-repeat center center;}
+.EXLResultMediaTYPEexam_papers .multipleCoverImageContainer {background: url(../../../images/icon_exam_papers.png) no-repeat center center;}
+.EXLResultMediaTYPEcourse_materials .multipleCoverImageContainer {background: url(../../../images/icon_course_materials.png) no-repeat center center;}
+.EXLResultMediaTYPEcourse_readings .multipleCoverImageContainer {background: url(../../../images/icon_course_readings.png) no-repeat center center;}
+.EXLResultMediaTYPEmedia .multipleCoverImageContainer {background: url(../../../images/icon_media.png) no-repeat center center;}
+.EXLResultMediaTYPEmicroforms .multipleCoverImageContainer {background: url(../../../images/icon_microforms.png) no-repeat center center;}
+
+/* added by Sam */
+.EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy ul{width:auto;}
+
+
+.EXLFacetContainer div.EXLFacetActionsV2 li.EXLFacetRSSAction { display:none }
+.EXLFacetContainer div.EXLFacetActionsV2 li.EXLFacetRSSActionDisabled  { display:none}
+
+/* added by Sam on 24-08-2011, starts  */
+.EXLResultMediaTYPEcourse_materials .multipleCoverImageContainer {background: url(../../../images/icon_book_cover.png) no-repeat center center;}
+.EXLResultMediaTYPEcourse_readings .multipleCoverImageContainer {background: url(../../../images/icon_article.png) no-repeat center center;}
+.EXLResultMediaTYPEmedia .multipleCoverImageContainer {display:none;}
+.EXLResultMediaTYPEmicroforms .multipleCoverImageContainer {background: url(../../../images/icon_video.png) no-repeat center center;}
+.EXLResultMediaTYPEdatabase .multipleCoverImageContainer {background: url(../../../images/icon_database.png) no-repeat center center;}
+.EXLResultMediaTYPEexam_papers .multipleCoverImageContainer {background: url(../../../images/icon_other.png) no-repeat center center;}
+.EXLResultMediaTYPEdissertation .multipleCoverImageContainer {background: url(../../../images/icon_article.png) no-repeat center center;}
+.EXLResultMediaTYPETteach_materials .multipleCoverImageContainer {background: url(../../../images/icon_book_cover.png) no-repeat center center;}
+.EXLResultMediaTYPEaudio .multipleCoverImageContainer {background: url(../../../images/icon_audio.png) no-repeat center center;}
+.EXLResultMediaTYPEvideo .multipleCoverImageContainer {background: url(../../../images/icon_film.png) no-repeat center center;}
+/* added by Sam on 24-08-2011, ended */
+
+/* added by Sam on 10-10-2011, starts */
+.EXLTabsRibbon div li.EXLRequestTab {display:none;}
+/* added by Sam on 10-10-2011, ended */
+
+/* added by Sam on 4-jan-2012, starts */
+.EXLRefreshRequestLink { display: none; }
+
+.EXLSessionQueriesWrapper .EXLMyAccountTable .EXLMyAccountTableAlertType { display: none; }
+.EXLSessionQueriesWrapper .EXLMyAccountTable .EXLMyAccountTableSetAlert { display: none; }
+.EXLSessionQueriesWrapper .EXLMyAccountTable .EXLMyAccountTableRSS { display: none; }
+
+.EXLSessionQueriesWrapper .EXLMyAccountTable tbody tr td:first-child + td + td { display: none; }
+.EXLSessionQueriesWrapper .EXLMyAccountTable tbody tr td:first-child + td + td + td { display: none; }
+.EXLSessionQueriesWrapper .EXLMyAccountTable tbody tr td:first-child + td + td + td + td { display: none; }
+
+/*
+.EXLPopupBody table tbody:first-child tr + tr { display: none; }
+.EXLPopupBody table tbody:first-child tr + tr + tr + tr + tr + tr {display: block; }
+*/
+
+td.body_pop form table tbody tr td label {color:white; font-size: 0%;}
+td.body_pop form table tbody tr td.title  label {color:black;  font-size: 100%;}
+td.body_pop form table tbody tr td {color:white;}
+td.body_pop form table tbody tr td input#queryName {display: block;} 
+td.body_pop form table tbody tr td input#saveQuery {display: block;} 
+td.body_pop form table tbody tr td input {display: none; }
+
+.EXLMyPersonalSettings { display: none; }
+.EXLMyAccountTips { display: none; }
+
+.EXLEmailPopup td.EXLEmailDetailsWideCell { display: none; }
+
+.EXLMyAccountMainContainer table {width: 95%; margin-left: 2%;}
+.EXLLocationInfo strong {display: none;}
+
+/* added by Sam on 4-jan-2012, ended */
+
+/* added by Sam on 7-mar-2012, starts */
+
+.EXLSearchFieldRibbonFormSubmitSearch {float:left; width:4.4em; }
+#exlidAdvancedSearchRibbon input.submit {width:4.4em; }
+
+/* added by Sam on 7-mar-2012, ended */
+
+/* To hide WOS Citation Link & image in PC */
+span[id^='citation_span_'] {display:none;}
+.EXLDetailsContent img {display:none;}
+
+/* added by Sam on 2-aug-2012, starts */
+.EXLRequestTabContent form span.reset { display:none; }
+/* added by Sam on 2-aug-2012, ended */
+
+/* added by Sam on 26-jun-2012, starts */
+#exlidSearchTabs li.EXLSearchTabSelected 
+   {border-width : 2px; margin-top: -1px;  border-color: #2C5D8C #2C5D8C #F6F6F6;}  
+
+#exlidSearchRibbon div.EXLSearchFieldRibbon { border: 2px solid #2C5D8C; }
+
+/* added by Sam on 26-jun-2012, ended */
+
+/* added by fman on 3-sep-2012, starts */
+#exlidAdvancedSearchRibbon div.EXLSearchFieldRibbon { border: 2px solid #2C5D8C; }
+/* added by fman on 3-sep-2012, ended */
+
+
+/* added by Sam on 26-nov-2012, starts */
+#exlidFindDBContainer {height:550px;}
+#exlidFindDBTile {height:505px;}
+/* added by Sam on 26-nov-2012, ended */
+
+/* added by Sam on 04-dec-2012, starts */
+/* Enlarge Browse Search Wordings */
+.EXLSearchFieldRibbonBrowseSearchLink a { font-size: 100%; margin-left: 135px; margin-top: -16px; height:10px;}
+.EXLSearchFieldRibbonAdvancedSearchLink a.EXLSearchFieldRibbonAdvancedTwoLinks { font-size: 100%;  margin-top: -1px; margin-left: 15px;  }
+
+/* Move Back to browse list link */
+#resultsNumbersTile #exlidBrowseFooterNavigation { display: inline;   float: none;}
+.EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy { float: left; width: 30%;}
+.EXLResultsHeader div.EXLResultsNumbers {width: 78%; }
+#resultsNumbersTileBottom #exlidBrowseFooterNavigation { display:none;}
+.EXLResultsHeader h1 {width:45%;}
+
+
+/* Hide Start/End date & month in Advanced Search */
+#exlidAdvancedSearchRibbon div.Advanced_StartDate span.EXLAdvancedSearchFormDateRangeRow select { display: none; }
+#exlidAdvancedSearchRibbon div.Advanced_EndDate  span.EXLAdvancedSearchFormDateRangeRow select { display: none; }
+
+/* Adjust the display of More Option in Facet*/
+.EXLFacetsLightboxTabsRibbon span.EXLFacetsLightboxTabsRibbonExclude {margin-left: 2%; margin-right: 2%;}
+
+/* Customization of Browse Search Interface */
+.EXLSearchFieldRibbonFormSelectedBrowse {width:200px; background: #FFFFFF; height: 24px; border-left: 1px solid;  border-right: 1px solid; border-top: 0px none; border-bottom: 0px none; margin-top:1px;}
+#exlidAdvancedSearchRibbon.EXLAdvancedBrowseRibbon  {margin-top: 0px;}
+#exlidAdvancedSearchRibbon.EXLAdvancedBrowseRibbon input#search_field {height: 1.9em;  width: 30em; border:0 none;}
+#exlidAdvancedSearchRibbon.EXLAdvancedBrowseRibbon input.submit { height: 28px;}
+#exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormSubmitSearch { margin-top:0px;float: left;clear: right; border-top: solid 1px #2C5D8C; border-right: solid 1px #2C5D8C;border-bottom: solid 1px #2C5D8C; height:28px;width: 4.4em;}
+#exlidAdvancedSearchRibbon div.EXLBrowseFieldRibbon {min-height: 0; padding: 0; width: 44.5em; float: left; clear: none; border-top: solid 2px #2C5D8C; border-left: solid 1px #2C5D8C;border-bottom: solid 2px #2C5D8C;}
+#exlidAdvancedSearchTile {padding:7px}
+.EXLSearchFieldRibbonFormSearchFor {width:18em;}
+.EXLSearchFieldRibbonFormBrowseList {width:200px}
+/* added by Sam on 04-dec-2012, ended */
+
+
+div.Advanced_EndDate {isplay:inline; float:left; width:16em; padding-bottom:0.5em; margin-left: -1em;}
+div.Advanced_StartDate {isplay:inline; float:left; width:16em;padding-bottom:0.5em;margin:0 0 0 0.5em;}
+span.EXLAdvancedSearchFormDateRangeRow input#input_drStartYear4 {width:5em;}
+span.EXLAdvancedSearchFormDateRangeRow input#input_16350976UI4 {width: 5em;}
+#exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormFieldsGroup2 div.Advanced_EndDate label  {width:2.5em; margin-left:1em;}
+
+/* added by Sam on 24-jan-2013, starts */
+#exlidSearchTile .EXLSearchFieldRibbonFormSelectedCollectionLabel a {background-image: url("");}
+.EXLSearchFieldRibbonFormSelectedCollection {width:25%; float:right; margin-top: -25px; background: white;}
+.EXLLocationInfo cite {display: none;}
+/* added by Sam on 24-jan-2013, ended */
+
+.EXLSearchFieldRibbonFormSearchFor {width:100%}
+
+/* added by Sam on 9-apr-2013, starts */
+.EXLAdvancedBrowseRibbon .EXLSearchFieldRibbonFormSearchFor {width:50%}
+#exlidAdvancedSearchRibbon input {width: 18em;}
+/* added by Sam on 9-apr-2013, ended */
+
+/* added by Sam on 24-may-2013, Primo 4.3 upgrade starts */
+.EXLResultsList em.EXLResultStatusAvailable {color: green;background-image:url("");padding-left:0px;}
+.EXLResultsList em.EXLResultStatusNotAvailable {color: red;background-image:url("");padding-left:0px;}
+.EXLResultsList em.EXLResultStatusMaybeAvailable {color: orange; background-image:url("");padding-left:0px;}
+.EXLResultsList h3 img{display:none;}
+#exlidFindDBContainer #exlidAddToSetListWrapper {overflow-x: hidden;}
+.EXLResultsList div.EXLSummaryContainer cite.EXLResultFRBR span.EXLResultBgFRBR {display:none;}
+.EXLResultsList div.EXLSummaryContainer cite.EXLResultFRBR {clear: both; display: inline; float: left; }
+.EXLResultsList div.EXLSummaryContainer div.EXLSummaryFields { display: inline; }
+ #exlidSearchBanner {display:inline;}
+ .EXLResultSeeFrbrLink {display:none;}
+/* added by Sam on 24-may-2013, Primo 4.3 upgrade ended */
+
+/* added by Sam on 24-may-2013, Google Book link starts */
+.EXLDetailsTabContent div.EXLDetailsLinks li {clear:left;}
+/* added by Sam on 24-may-2013, Google Book link starts */
+
+/* added by Sam on 26-july-2013 starts here */
+#exlidAdvancedSearchRibbon fieldset fieldset#exlidAdvancedSearchFieldset3 {display:none;}
+#exlidAdvancedSearchRibbon fieldset fieldset#exlidAdvancedSearchFieldset4 {display:none;}
+span.EXLAdvancedSearchFormDateRangeRow input#input_drStartYear6 {width:5em;}
+span.EXLAdvancedSearchFormDateRangeRow input#input_18899088UI6 {width: 5em;}
+/* added by Sam on 26-july-2013 ended */
+
+/* To hide WOS Citation Link & image in PC */
+span[id^='citation_span_'] {display:none;}
+.EXLDetailsContent img {display:none;}
+
+/* added by fman on 19-sep-2014, starts */
+
+/* To hide Citation under Add to e-shelf  
+li.EXLButtonSendToCitation {display:none !important;}
+*/
+
+/* To hide virtual browse tab
+li.EXLBrowseshelfTab {display:none;}
+*/
+
+/* hide peer review */
+/*
+ol#exlidFacetSublistX.EXLFacetsList.EXLFacetsListPreview li:first-child {
+    background: cyan; }  
+*/
+   
+/* added by fman on 19-sep-2014, ended */
+
+/* added by fman on 30-oct-2014, starts */
+
+/* To hide times cited tab 
+LI#exlidResult0-CitationsTab.EXLCitationsTab.EXLResultTab.EXLServiceConditionalTab {display:none !important;}
+LI#exlidResult1-CitationsTab.EXLCitationsTab.EXLResultTab.EXLServiceConditionalTab {display:none !important;}
+LI#exlidResult2-CitationsTab.EXLCitationsTab.EXLResultTab.EXLServiceConditionalTab {display:none !important;}
+LI#exlidResult3-CitationsTab.EXLCitationsTab.EXLResultTab.EXLServiceConditionalTab {display:none !important;}
+LI#exlidResult4-CitationsTab.EXLCitationsTab.EXLResultTab.EXLServiceConditionalTab {display:none !important;}
+LI#exlidResult5-CitationsTab.EXLCitationsTab.EXLResultTab.EXLServiceConditionalTab {display:none !important;}
+LI#exlidResult6-CitationsTab.EXLCitationsTab.EXLResultTab.EXLServiceConditionalTab {display:none !important;}
+LI#exlidResult7-CitationsTab.EXLCitationsTab.EXLResultTab.EXLServiceConditionalTab {display:none !important;}
+LI#exlidResult8-CitationsTab.EXLCitationsTab.EXLResultTab.EXLServiceConditionalTab {display:none !important;}
+LI#exlidResult9-CitationsTab.EXLCitationsTab.EXLResultTab.EXLServiceConditionalTab {display:none !important;}
+*/
+
+/* To hide similar titles tab 
+LI#exlidResult0-BrowseshelfTab.EXLBrowseshelfTab.EXLResultTab.EXLResultLastTab {display:none !important;}
+LI#exlidResult1-BrowseshelfTab.EXLBrowseshelfTab.EXLResultTab.EXLResultLastTab {display:none !important;}
+LI#exlidResult2-BrowseshelfTab.EXLBrowseshelfTab.EXLResultTab.EXLResultLastTab {display:none !important;}
+LI#exlidResult3-BrowseshelfTab.EXLBrowseshelfTab.EXLResultTab.EXLResultLastTab {display:none !important;}
+LI#exlidResult4-BrowseshelfTab.EXLBrowseshelfTab.EXLResultTab.EXLResultLastTab {display:none !important;}
+LI#exlidResult5-BrowseshelfTab.EXLBrowseshelfTab.EXLResultTab.EXLResultLastTab {display:none !important;}
+LI#exlidResult6-BrowseshelfTab.EXLBrowseshelfTab.EXLResultTab.EXLResultLastTab {display:none !important;}
+LI#exlidResult7-BrowseshelfTab.EXLBrowseshelfTab.EXLResultTab.EXLResultLastTab {display:none !important;}
+LI#exlidResult8-BrowseshelfTab.EXLBrowseshelfTab.EXLResultTab.EXLResultLastTab {display:none !important;}
+LI#exlidResult9-BrowseshelfTab.EXLBrowseshelfTab.EXLResultTab.EXLResultLastTab {display:none !important;}
+*/
+
+/* added by fman on 30-oct-2014, ended */
+
+/* added by fman on 12-Nov-2014, starts */
+#exlidAdvancedSearchRibbon input {width: 5em;}
+/* added by fman on 12-Nov-2014, ended */
+
+/* added by fman on 14-APR-2015, starts */
+span.EXLAdvancedSearchFormDateRangeRow input#input_drEndYear6 {width:5em;}
+
+#exlidAdvancedSearchRibbon input {width: 18em;}
+/* added by fman on 14-APR-2015, ended */
+
+/* added by fman on 11-jun-2015 starts */
+#exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormFieldsGroup1{width:43em;}
+#exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormFieldsGroup2{width:32em;}
+select#exlidInput_boolOperator_3.EXLSelectTag.fixed {display:none}
+/* added by fman on 11-jun-2015, ended */
+
+/* added by fman on 16-jun-2015 starts */
+#exlidMyAccountMenu1-5 {display:none}
+/* added by fman on 16-jun-2015 ended */
+
+/* added by fman on 14-jan-2016 starts */
+/*
+.EXLFacetContainer div.EXLFacetActionsV2 li.EXLFacetRSSAction { display:block !important }
+.EXLResult .EXLReviewsTab { display:block !important }
+*/
+/* added by fman on 14-jan-2016 ended */
+
+/* added by fman on 6-may-2016 starts */
+#search_field::-ms-clear { 
+display: none; 
+} 
+/* added by fman on 6-may-2016 ended */
+
+/* added by fman on 1-jun-2016 starts */
+#input_freeText0::-ms-clear {
+    display: none;
+}
+#input_freeText1::-ms-clear {
+    display: none;
+}
+#input_freeText2::-ms-clear {
+    display: none;
+}
+
+#exlidClearSelectedFieldsAdvancedSearch {display:inline
+!important;}
+
+div.EXLSearchFieldRibbonFormSearchFor {width:546px;}
+
+/* added by fman on 1-jun-2016 ended */
+
+/* to hide the clear all button at search box , 15-june-2016
+.EXLClearSimpleSearchBoxButtonClose {display:none}
+*/

@@ -1,0 +1,246 @@
+body {min-width:200px;}
+
+/* ----------Search Ribbon Styles--------------- */
+#exlidSearchRibbon div.EXLSearchFieldRibbon {
+	position: relative; 
+	height:100%;
+	width:95vw;
+	left: 5px;
+}
+#exlidSearchRibbon input.submit {
+	height:26px;
+	cursor: pointer;
+	cursor: pointer;
+	padding:0 0.5em;
+	font-size:14px;
+	font-weight:bold;
+	font-family: Helvetica;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border:none;
+	text-align:center;
+	position: absolute;
+	width:100%;
+	background-image: url(http://primo.csids.edu.hk/primo_library/libweb/ouhk/images/bg_strip_btn_orange.png); 
+	background-color:#f37329;
+}
+/*search tabs*/
+
+/*to display selection of searching scope
+ *  * using relative positioning to the input box
+ *   */
+.EXLSearchFieldRibbonFormSelectedCollection {
+	position:absolute;
+	width: 95vw;
+	left: -1px;
+	top: -34px;
+	height: auto;
+	border: 1px solid #A7B9E5;
+	display:block;
+	margin:0px;
+	padding:0px;
+}
+
+.EXLSearchFieldRibbonFormSelectedCollectionLabel {
+	display:block;
+	font-size: larger;
+}
+.EXLSearchFieldRibbonFormCollectionsList {
+	display:block;
+	position: absolute;
+	left: 40vw;
+	top: 5vh;
+}
+.EXLSearchFieldRibbonFormLimitList {
+	display:block;
+}
+.EXLSearchFieldRibbonFormCollectionsList {
+	left: 0;
+}
+.EXLDynamicSelectBodyRadio{
+	background-color: #ffffff;
+}
+.EXLResultsList div.EXLSummaryContainer cite.EXLResultFRBR {
+	display:none;
+}
+/*Hide up mobile detail record "Request tab" Kevin Yiu 20150603*/ 
+body.EXLFullView div.EXLTabsRibbon div li.EXLRequestTab {
+	display:none;
+} 
+/*e-shelf*/
+/* added by ewskong on 20150529, for mobile display "Loans" record */
+.folders_new, .draggable, .EXLMyAccountTabsRibbon div li.EXLMyAccountTab, .EXLMyAccountTableAuthor, .EXLMyAccountTableDueHour, .EXLMyAccountTableFine, .Location, .EXLMyAccountMainHeaderTitle div.EXLMyAccountMainHeaderContent span , .EXLMyAccountTableCounter, .EXLMyAccountMainContainer table tr td:first-child, .EXLMyAccountMainContainer div.EXLMyAccountTips, .folder_details .newManage_buts, a.eShelf_print, .author, .added, .note, .MyAccount_Loans_7, .MyAccount_Loans_5, .MyAccount_Loans_3, .MyAccount_Loans_6, .MyAccount_Loans_0, .MyAccount_Requests_0, .MyAccount_Requests_3, .MyAccount_Requests_4, .MyAccount_Requests_5, .MyAccount_Requests_6, .MyAccount_FineAndFees_0, .MyAccount_FineAndFees_2, .MyAccount_FineAndFees_4, .MyAccount_FineAndFees_5, .MyAccount_FineAndFees_6, #exlidUserAreaRibbon li.EXLMyShelf  {display: none} 
+.MyAccount_Loans_2, .MyAccount_Loans_8  {display:table-cell; width:auto} 
+.MyAccount_Loans_4  {display:inline} 
+.MyAccount_Loans_5 {display:inherit;visibility:hidden}
+#exlidHeaderTile img {width: 48vw;}
+
+/*mobile fixes*/
+/*search button*/
+/*using relative position to the scope pull-down manu*/
+.EXLSearchFieldRibbonFormFields {
+    position: relative;
+}
+
+.EXLSearchFieldRibbonFormSearchClear{
+	position:absolute;
+	left: 70vw;
+	height: 30px;
+	width:7%;
+}
+
+/*Hide the clear button in search box 20150703*/
+.EXLClearSimpleSearchBoxButtonClose{height: 100%;}
+
+/*Facets*/
+/*Hide up virtual browse in detailed display mobile view by Kevin Yiu 20150604*/
+#exlidResult0-BrowseshelfTab {display:none}
+
+/*Hide up irrelevent fields in borrower records 20150706 */
+.EXLMyAccountTableCallNumber {display:none}
+.EXLMyAccountTableHoldStatus {display: none}
+
+/*Align feature.html for OU View main page*/
+#OUHKHomeContainer {width:95vw; padding-top:3em;}
+#OUHKHomeLeftColumn {width: 90vw; top: 13px; left: 5px; right: 5px; position:relative}
+#OUHKHomeMiddleColumn {position:relative; left: 0vw; width:95vw;}
+#OUHKHomeRightColumn {position:relative; top: 10px; width: 95vw;}
+#OUHKHomeSchoolTable {width:95vw;}
+#OUHKHomeSchoolTableTD {width:95vw;}
+#OUHKHomeBannerTable {width: 95vw;}
+
+/*amend margin-top of UserAreaTile and MainMenuTile, hide up OUHKLanguage, Zoe SHU, 20160301 */
+#exlidUserAreaTile {margin-top: 0em; clear:both; margin-bottom:10px;}
+#exlidUserAreaTile ul{margin-top: 0px; border-left-width: 0px;}
+.OUHKLanguage {display:none}
+#exlidHomeContainer {padding-top: 3em}
+
+/*amend margin-top of pagination, Zoe SHU, 20160301 */
+.EXLResultsHeader div.EXLResultsNavigation {margin-top: 0em}
+
+/*amend homepage width, Zoe SHU, 20160413 */
+#exlidHeaderTile {width:20%; padding-left:0.4em; padding-top:0.5em;}
+div#exlidHeaderSystemFeedback {display:none;}
+#exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 {width:auto; padding-left:1em;}
+#exlidHomeContainer div.EXLHomeBlockContainer1 {margin-bottom:1.8vw;}
+#OUHKHomeLeftColumn {top:20px; left:2.2vw;right:2px;padding-bottom:0.3vw;}
+#OUHKHomeRightColumn {left:0.7vw; top:4.5vw;}
+.EXLFooterTile {display:none;}
+.EXLSearchFieldRibbonFormSubmitSearch {position: absolute; top: 3px; right: 0px; margin-top: 0px; height:100%; width:20%}
+#exlidSearchRibbon {width:auto; padding-left:0em;}
+#exlidSearchTabs {display:none}
+.EXLSearchFieldRibbonAdvancedSearchLink {display:none;}
+#exlidSearchTile {clear:left; border:none; background-image:none; background-repeat:repeat-x; height:auto; font-size:80%; width:auto; padding-bottom:0em;}
+#exlidSearchRibbon input {height:26px; padding-top:0.4em; font-size:16px; padding-left:0.01em; width:94%}
+div.EXLSearchFieldRibbonFormSearchFor {width:85%;}
+.EXLSearchFieldRibbonFormFields {height:30px; width:91% !important;}
+#exlidMainMenuTile {margin-top:0.2em;}
+#exlidUserAreaTile li {border-right: 1px solid #dadada; float: left;}
+#exlidUserAreaRibbon li {background-image:none; padding:8px; height:18px; font-size:13px;}
+#exlidUserAreaRibbon {height:auto;}
+#exlidUserAreaRibbon li span.EXLUserAreaStart {width:0; float:left;}
+#exlidUserAreaRibbon li:last-child {border-right-width:0px;}
+#exlidUserAreaRibbon li.EXLLastItem {padding-right:7.9px;}
+
+/*search result page, Zoe SHU, 20160413 */
+.EXLResultsHeader div.EXLResultsNumbers {width:100%; height:18px; float:none; min-height:18px;}
+.EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy {width:auto; line-height:26px;}
+.EXLResultsHeader {margin-bottom:45px;}
+.EXLFacetTile {display:none; }
+.EXLSortMobile select {height:26px;}
+.EXLResultsContainer {clear:both; padding:0em; margin-bottom:1em;}
+.EXLResultsContainer div.EXLResultsTile {width:auto; float:left; border-left:0px; margin-bottom:0.5em; padding:1.4em 0 0 0;}
+#EXLFacetsMobile {margin-left:0.2em;margin-top:0px;}
+#EXLFacetsMobile select {height:30px; border:1px solid #dadada; width:100%;}
+.EXLResultsSortBySelected, .EXLResultsSortByMenu {display:none;}
+.EXLResultsHeader h1 {width:100%; padding:0 0 0 1em; float:left;}
+.EXLResultsHeader div.EXLResultsNavigation {margin:0em; float:left; width:auto; font-weight:bold; padding:0em 0em 0em 1em;}
+
+/*borrower record, Zoe SHU, 20160413 */
+.EXLMyAccountTabsRibbon {padding-top:1.9em;}
+.EXLMyAccountTabsRibbon div li.EXLMyAccountLastTab, .EXLMyAccountTabsRibbon div li.EXLMyAccountFirstTab {display:inline;}
+.EXLMyAccountContainer {width:99%; padding-left:0.5%; min-height:10em; padding-top:0.3em;}
+.EXLMyAccountMainMenuTile {width:100%;}
+.EXLMyAccountMainContainer {margin-left:2px; float:left; margin-top:0.3em; width:98.7%;}
+.EXLMyAccountMainMenuContainer ol {margin:0 0 0 0.1em; padding:0.3em 0 0 0; min-height:9.8em;}
+.EXLMyAccountMainMenuContainer ol li {line-height:150%;}
+.EXLMyAccountMainMenuContainer ol li span.EXLMyAccountMainMenuBulletSelected {margin-top:4px; left:-3px;}
+.folder_details .itemsList {height:auto;}
+.folder_details {padding-left:0;}
+
+/*full display, Zoe SHU, 20160414*/
+.EXLResultsList div.EXLSummaryContainer div.EXLSummaryFields {float:none; width:auto; margin-bottom:0.5em;}
+body.EXLFullView div.EXLResultsContainer div.EXLResultsTile {padding:0;}
+body.EXLFullView div.EXLResultsList h1.EXLResultTitle {padding-top:0.9em;}
+body.EXLFullView div.EXLTabsRibbon {
+	height:2em; 
+	padding:0px; 
+	padding-top:0.95em; 
+	margin:0em 0em 0em 0em; 
+	clear:left; width:100%; 
+	margin-left:auto; 
+	margin-right:auto; 
+	display: block; 
+	margin-left:0em; 
+	border-bottom:2px solid #adadad;
+}
+body.EXLFullView div.EXLTabsRibbon div li.EXLResultTab {margin-left:0; -webkit-border-radius:4px; border-bottom-style:none; height:27px; cursor:pointer; float: left; color:#9B9B9B;}
+.EXLTabsRibbon div li.EXLResultSelectedTab {
+	border:0px solid #e1e1e1;
+	border-bottom:none;
+	background-color:#e1e1e1;
+	height:15px;
+	background-image:none;
+	background-image:url(../images/bg_strip_btn_grey.png);
+	background-position:bottom;
+	background-color:#bebebe;
+	background-repeat:repeat-x;
+	text-align:center;
+	font-weight:bold;
+	vertical-align:middle;
+	float: left;
+	font-weight: bold;
+	text-decoration: none;
+	margin-right:0px;
+	color:#555555;
+	margin-left:0.5em;
+}
+.EXLTabsRibbon div li.EXLResultSelectedTab a {color:#FFFFFF;}
+.EXLTabsRibbon div {margin-left:1em; margin-bottom:0em; width:100%;}
+.EXLTabsRibbon div a:hover {text-decoration:underline;}
+.EXLTabsRibbon div li{font-size:110%; line-height:2em;}
+.EXLTabsRibbon div li.EXLRecommendTab {display:none;}
+.EXLTabsRibbon div li.EXLMoreTab {display:none;}
+body.EXLFullView div.EXLTabHeader div.EXLTabHeaderButtons li span {display:none;}
+body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {padding-top:0.15em;}
+.EXLTabHeader div.EXLTabHeaderButtons {display:none;}
+.EXLTabContent {border:none; padding:0 2em 0 0;}
+body.EXLFullView div.EXLResultTabContainer {width:100%;}
+body.EXLFullView div.EXLResultsHeader div.EXLResultsNavigation {
+	clear:left;
+	font-size:100%;
+	margin:0px;
+	padding:0.5em 0em 1em 0.7em;
+	float:none;
+	display:block;
+	width:100%;
+	text-align:left
+}
+body.EXLFullView div.EXLBackToResults {font-size:100%; width:100%; margin-left:0.7em; margin-bottom:0.5em; font-weight:bold;}
+body.EXLFullView div.EXLTabContent {border:none;}
+.EXLResultTabContainer div.EXLTabHeader {border:none; background-image:none;}
+.EXLDetailsTabContent div.EXLDetailsContent {width:100%; height:100%; margin:1.5em 1em 0em 1em;}
+body.EXLFullView div.EXLDetailsTabContent div.EXLDetailsLinks {
+	float:left;
+	display:block;
+	width:100%;
+	border:none;
+	margin:1em 1em 1em 0em;
+	background-image:none;
+	padding:0.5em;
+	padding-bottom:2em;
+}
+.EXLTabsRibbonClosed {display:none;}
+
+/*position of facebook button, Zoe SHU, 20160414*/
+.EXLFacebookIframe {height:30px; margin-top:0px;margin-left:0px;float:left;}

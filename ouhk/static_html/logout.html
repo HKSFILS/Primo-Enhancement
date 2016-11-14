@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Logout</title>
+<body>
+<script type="text/javascript">
+
+function logout4ouhk(){
+   var form4out = document.createElement("form"); 
+   form4out.id = "form4out";
+   form4out.name = "form4out";
+   form4out.method = "GET"; 
+   form4out.action = "http://www2.lib.ouhk.edu.hk/primo_library/libweb/action/logout.do";
+   document.body.appendChild(form4out);
+   var input1 = document.createElement("input"); 
+   input1.type = "hidden"; 
+   input1.name = "loginFn";
+   input1.value = "signout";
+   form4out.appendChild(input1);
+   var input2 = document.createElement("input"); 
+   input2.type = "hidden";
+   input2.name = "vid";
+   input2.value = "ouhk";
+   form4out.appendChild(input2);
+   var input3 = document.createElement("input");
+   input3.type = "hidden";
+   input3.name = "targetURL";
+   input3.value = "http://primo2.csids.edu.hk/primo_library/libweb/action/search.do?vid=OUHK";
+   form4out.appendChild(input3);
+   form4out.submit();
+   document.body.removeChild(form4out); 
+}
+
+logout4ouhk();
+
+</script>
+</body>
+</html>

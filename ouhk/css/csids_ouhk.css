@@ -1,0 +1,219 @@
+/*Hide the clear icon on the search field 20150720*/
+.EXLClearSimpleSearchBoxButtonClose {background-image: url("../../images/icon_clear_search.png");background-position: center center;margin-left: 0;background-repeat: no-repeat;display: none;float: left;height: 26px;width: 100%;}
+
+/*in case there is only one search scope*/
+.EXLSearchFieldRibbonFormSearchForMaximized .EXLSearchFieldRibbonFormSearchFor{  width:95%;}
+.EXLSearchFieldRibbonFormSearchForMaximized .EXLSearchFieldRibbonFormSelectedCollection{ display:none;}
+.EXLSearchFieldRibbonFormSearchForMaximized .EXLSearchFieldRibbonFormCollectionsList{ display:none;}
+
+/* (UAT) Adjust width from 63% to 53%, ewskong on 20150409 */
+.EXLLocationInfo { float:right; width:63%; padding-left:0.5em; padding-top:0.3em; margin-top:0em; vertical-align: top;}
+
+/* (UAT) hide Location tab inside, ewskong on 20150123 */
+.EXLLocationInfo strong { font-weight:normal; width:30%; display:inline-block; vertical-align:top}
+.EXLLocationInfo cite { font-weight:normal; font-style:normal; margin-left:1em; width:40%; display:inline-block; vertical-align:top }
+
+/* show boolean operators dropdown in advanced search tile. Dated: 20150725. by William NG/*/
+#exlidAdvancedSearchRibbon div.EXLAdvancedSearchFormRow fieldset span.EXLBooleanOperatorInput
+{display:inline;}
+
+/* hide the RSS News Feed, ewskong on 20140929 */
+#exlidSearchBanner {display:none}
+
+/* hide "Browse Search", ewskong on 20140929 */
+/* Enlarge Browse Search Wordings */
+.EXLSearchFieldRibbonBrowseSearchLink {display:none}
+
+/* hide virtual browse tab, ewskong on 20141017 */
+.EXLResult .EXLBrowseshelfTab {display:none;}
+
+/* hide reviews & tags tab, ewskong on 20141017 */
+.EXLResult .EXLReviewsTab { display:none;}         
+
+/* (UAT) hide QESS eBooks tab, ewskong on 20150119 */
+li#exlidTab1.EXLSearchTab {display:none;}
+
+/* (UAT) hide Personal Settings tab in My Account, ewskong on 20150223 */
+#exlidMyAccountMenu1-6  {display:none}
+
+/* hide "save this email addr..." on sendto by email interface. Dated: 27 Apr 2015*/
+.EXLEmailDetailsWideCell {display:none;}
+
+/*hide "Save/Alert" on the interface "save query. Dated 28 Apr 2015*/
+.EXLPopupBody .radiox.EXLRadioButton {display:none;}
+
+/*dated 28 Apr 2015*/
+.EXLTabBoomId {display:none;}
+
+/*Align feature.html for OU View main page 10 Jun 2015, William NG*/
+#OUHKHomeContainer {width:1050px; margin:0 auto;}
+#OUHKHomeLeftColumn {float:left; width:550px;}
+#OUHKHomeMiddleColumn {float:left;width:140px;}
+#OUHKHomeRightColumn {float:right; width:400px;}
+
+/*hide the 3rd boolean operator on advanced search menu. Dated: 17 Jul 2015, William NG*/
+#exlidInput_boolOperator_3 {display: none;}
+
+/*the following are for hiding non-OUHK request options under Location Tab "TWC01", "SFU01", "CCT01", and "b" are the original source code set on Primo BO datasource setting 20150724 William NG */
+*[id^='TWC01'] .EXLLocationTableHeaderActions{
+        text-indent: -9999px;
+}
+*[id^='TWC01'] .EXLLocationTableActions div.EXLLocationTableActionsMenu{
+        display: none;
+}
+*[id^='SFU01'] .EXLLocationTableHeaderActions{
+        text-indent: -9999px;
+}
+*[id^='SFU01'] .EXLLocationTableActions div.EXLLocationTableActionsMenu{
+        display: none;
+}
+*[id^='CCT01'] .EXLLocationTableHeaderActions{
+        text-indent: -9999px;
+}
+*[id^='CCT01'] .EXLLocationTableActions div.EXLLocationTableActionsMenu{
+        display: none;
+}
+*[id^='b'] .EXLLocationTableHeaderActions{
+        text-indent: -9999px;
+}
+*[id^='b'] .EXLLocationTableActions div.EXLLocationTableActionsMenu{
+        display: none;
+}
+
+/*align citation disclaimer dated: 20150727 William NG*/
+#exlidSaveCitationtile div.EXLSaveCitationDisclaimerRow div.EXLSaveCitationDisclaimer {text-align: left}
+
+/* hide delicious/refworks/sendto eshelf. Dated: 20150727. William NG*/
+.EXLTabHeaderButtons ol.EXLTabHeaderButtonSendToList li.EXLButtonSendToDelicious {display: none}
+.EXLTabHeaderButtons ol.EXLTabHeaderButtonSendToList li.EXLButtonSendToRefWorks {display: none}
+
+/*change the link color of "Borrower Record / Renewal" Dated: 20151013. William NG*/
+.EXLMyAccount a {background-color:#ffffff; color:#f47c30 !important;}
+     
+/*no display help graphic on saved query. Dated: 20151204. William NG*/
+.EXLQueryEditlayout div.whatis {display:none} 
+
+/* Hide Borrower record request operation which has no use 20151204, William NG*/
+.MyAccount_Requests_6 {display:none} 
+
+/* Adjust Summary status in CSIDS Style 20160121, William NG */
+.EXLResultsList em.EXLResultStatusAvailable {color: green;background-image:url("");padding-left:13px;}
+.EXLResultsList em.EXLResultStatusNotAvailable {color: black;background-image:url("");padding-left:13px;}
+.EXLResultsList em.EXLResultStatusMaybeAvailable {color: black; background-image:url("");padding-left:13px;}
+
+/*Raking the search box pull down menu having more width 20160121, William NG*/
+.EXLSearchFieldRibbonFormSelectedCollection{width: 40%; margin-top:0px; margin-left:23px;  float:left; width:39%;}
+
+/*change the color of search button  to orange, William NG. 20160125 */
+#exlidSearchRibbon input.submit {background-color: #EA6D24;}
+
+/*change the border of search field to 1px and light blue, Zoe SHU, 20160126*/
+#exlidSearchRibbon div.EXLSearchFieldRibbon {border: 1px solid #8fb9d0; }
+#exlidSearchTabs li.EXLSearchTabSelected {border: 1px solid ; border-color: #8fb9d0 #8fb9d0 #F6F6F6; margin-top: 0px; }
+div.EXLSearchFieldRibbonFormSearchFor { width: 56%; }
+
+/*amend homepage margin, Zoe SHU,20160127 */
+#OUHKHomeContainer {padding-top: 1.5em; }
+#exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 p {margin-top: 0px; margin-bottom: 0px; }
+
+/*amend logo margin, Zoe SHU, 20160127 */
+#exlidHeaderTile {padding-left: 0.8em; padding-top: 0.8em; padding-bottom: 0em; width: 99% ; height:auto; overflow: visible; }
+
+/*amend user area tile margin, Zoe SHU, 20160127 */
+#exlidUserAreaTile {margin-top: auto; margin-top:-4.85em;}
+#exlidUserAreaRibbon li {padding-left: 0em; }
+
+/*amend language menu width and position, Zoe SHU, 20160127*/ 
+#exlidMainMenuTile {width: 49em; margin-top: 0em; float: right; clear: right; }
+#exlidMainMenuTile div.EXLMainMenuContainer {display: block; }
+
+/*enable the bg image of search button, Zoe SHU, 20160127 */
+#exlidSearchRibbon input.submit {background-image: url(../../images/bg_strip_btn_orange.png); }
+
+/*amend homepage description padding, Zoe SHU, 20160127 */
+#exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 {padding-left: 0.5em; }
+
+/*amend homepage footer margin, Zoe SHU, 20160127 */
+#exlidHomeContainer div.EXLHomeBlockContainer1 {margin-bottom: 0em; }
+
+/*amend facet float, Zoe SHU, 20160127 */
+.EXLFacetTile {float: right; }
+
+/*amend result header width and float, Zoe SHU, 20160127 */
+.EXLResultsHeader h1 {width: 65%; }
+.EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy { float: right; width:13em;}
+
+/*change the color, bg image, border, width, height of advanced search button, Zoe SHU, 20160127 */
+#exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormSubmitSearch {border: 1px solid #adb9c2; width: 8.5em; height: 24px; color: #FFFFFF; margin-top: -1px; }
+#exlidAdvancedSearchRibbon input.submit {border: 1px solid #ffffff; width: 8.5em; height: 24px; color: #FFFFFF; background-image: url(../../images/bg_strip_btn_orange.png); background-color: #e87107; }
+#exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormClearSearch input {1px solid #ffffff; width: 8.5em; height: 24px; color: #FFFFFF; background-image: url(../../images/bg_strip_btn_grey.png); }
+
+/*amend the border and width of advanced search form, Zoe SHU, 20160129 */
+#exlidAdvancedSearchRibbon div.EXLSearchFieldRibbon {border: 1px solid #8fb9d0; }
+#exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormFieldsGroup1 {width: 45em; }
+#exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormFieldsGroup2 {width: 32em; }
+#exlidAdvancedSearchTile { padding: 1em 0em 1em 0em; }
+
+/*amend the width of advanced search text fields, Zoe SHU, 20160129 */
+#exlidAdvancedSearchRibbon select {width: auto; }
+#exlidAdvancedSearchRibbon input {width: 20em; }
+#exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormFieldsGroup2 select {width: 16.2em;}
+/* year(start date, end date) field*/
+span.EXLAdvancedSearchFormDateRangeRow input#input_5168341UI4 {width: 5em; }
+span.EXLAdvancedSearchFormDateRangeRow input#input_5168344UI4 {width: 5em; }
+
+/*amend the width of resutlt header, Zoe SHU, 20160129 */
+.EXLResultsHeader div.EXLResultsNumbers {width: 70%; }
+
+/*amend the table width of Borrower Record, Zoe SHU, 20160129 */
+.EXLMyAccountMainContainer table {width: 96%; margin-left: auto; }
+
+/*amend the margin and width of Result Sort By menu, Zoe SHU, 20160129 */
+.EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy ul {width: 8em; margin-left: 5em; }
+
+/*amend the margin of Refine Search window, Zoe SHU, 20160129 */
+.EXLFacetsLightboxTabsRibbon span.EXLFacetsLightboxTabsRibbonExclude {margin-left: 1em; margin-right: 1.4em; }
+
+/*amend min-height of footer, Zoe SHU, 20160201 */
+.EXLFooterTile {min-height: 60px; }
+
+/*amend the padding and color of summary status, Zoe SHU, 20160201*/
+em#RTADivTitle_ {padding-left: 15px; color: #000000; }
+
+/*enable borrower record request item list location column, William NG, 20160218*/
+.MyAccount_Requests_call_number {display: inline}
+.MyAccount_Requests_ {display: inline}
+
+/*change the width of header, margin-top of UserAreaTile, hide up Language pull down menu, Zoe SHU, 20160224 */
+#exlidUserAreaTile {margin-top: -4.85em }
+#exlidHeaderTile td {width:auto}
+#exlidHeaderTile table {width:auto; height:auto;}
+#exlidMainMenuTile div.EXLLanguagesContainer {display:none}
+
+/*amend Language List, Zoe SHU, 20160224 */
+.OUHKLanguage {float: right; padding-right:1em; font-size:80%; margin-top:-1.8em;}
+
+/*amend the width of summary status, Zoe SHU, 20160301 */
+.EXLResultsList div.EXLSummaryContainer div.EXLSummaryFields {width: 85%}
+.EXLResultsList h2 {width:92%}
+.EXLResultsList h3 {width:92%}
+
+/*hide up options of Personaliza your results on Facet, Zoe SHU, 20160414*/
+.EXLFacetContainer.EXLPyrContainer {display:none;}
+.EXLRefinementPYR {display:none;}
+
+/*hide up borrower record sort options, Zoe SHU, 20160415 */
+#LoansTable tr .headerSortOptions {background-image: none;}
+
+/*hide up Action-Esay bib, Zoe SHU, 20160614 */
+.EXLTabHeaderButtons ol.EXLTabHeaderButtonSendToList li.EXLButtonSendToEasyBib {display:none;}
+
+/*redize book cover image and diplace relevent elements, William NG, 20160722
+.EXLSummary {padding-left: 0.6em;}
+.EXLResultsList td.EXLMyShelfStar {padding-left: 0.4em;}
+.EXLTabsRibbon {padding-top: 1.8em;}
+.EXLResultsList div.EXLSummaryContainer {line-height: 150%; !important}
+*[id^='ava_summary_text'] {padding-top: 0.2em;}
+.EXLResultsList td.EXLThumbnail img {width: 60px; height: 87px; !important}
+.multipleCoverImageContainer {width: 60px; height: 87px; !important}
+*/
