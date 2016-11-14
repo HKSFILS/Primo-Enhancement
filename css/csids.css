@@ -1,0 +1,27 @@
+/* general style */
+body  {font-family:Arial,verdana; font-size:80%;}
+a:link, a:visited {color:#0075b0; text-decoration: none;}
+
+/*---View Online Tab Styles---*/
+.EXLViewOnlineTabContent {overflow:auto; overflow-x:hidden;}
+/*multiple online sources */
+.EXLViewOnlineTabContent div.EXLViewOnlineLinks { float:left; width:90%; margin:0.5em; height:auto; padding:0.5em; padding-bottom:1em  }
+.EXLViewOnlineTabContent div.EXLViewOnlineLinks em { padding-left:0.5em}
+.EXLViewOnlineTabContent div.EXLViewOnlineLinks ul { height:100%; padding:0.5em 1em 1em 0.5em; width:auto; list-style-type:none   }
+.EXLViewOnlineTabContent div.EXLViewOnlineLinks li { padding-top:0px; padding-bottom:3px; padding-right:0px;}
+.EXLViewOnlineTabContent div.EXLViewOnlineLinks li span.EXLViewOnlineLinksTitle a { width:auto;background-image: url(../images/icon_popout_tab.png); background-repeat:no-repeat;background-position:right;}
+.EXLViewOnlineTabContent div.EXLViewOnlineLinks li span.EXLViewOnlineLinksIconPopout {display: inline-block; padding-left:20px; }
+.EXLViewOnlineTabContent div.EXLViewOnlineLinks li span.EXLViewOnlineLinksTitle a:hover  span.EXLViewOnlineLinksIconPopout { text-decoration:none;}
+
+/*multiple online sources tips*/
+.EXLViewOnlineTabContent div.EXLRequestTipsList{float:right; width:30%; border:1px solid #e1e1e1; padding:1em 1em 1em 1em;background-image:url(../images/bg_strip_details_links.png); background-repeat:repeat-x; background-position:bottom; height:auto;  margin-top:1em; margin-right:1em}
+.EXLViewOnlineTabContent div.EXLRequestTipsList em { padding-left:0.5em; font-size:90%}
+.EXLViewOnlineTabContent div.EXLRequestTipsList ul { height:100%; padding:0.5em 1em 1em 0.5em; width:100%;   }
+.EXLViewOnlineTabContent div.EXLRequestTipsList li { list-style:none;padding-top:0px; padding-right:0px; font-size:90%; margin-bottom:1em; float:left}
+.EXLViewOnlineTabContent div.EXLRequestTipsList li span.EXLRequestTipsBullet { padding:0px; margin:0px;
+background-image: url(../images/bullet_arrow_orange_tip.png); background-repeat:no-repeat;width:15px; height:30px; float:left; display:block; clear:left; margin-top:5px;  }
+.EXLViewOnlineTabContent div.EXLMyAccountTips li span.EXLRequestTipsTitle  { width:90%; display:block; float:left}
+
+/*TOC tab style*/
+.QTOC table {font-size: 100%; font-family: Arial,verdana; border-collapse: separate; border-spacing: 0px 5px; }
+.QTOC td {border-bottom: 1px solid #BFBFBF; }
